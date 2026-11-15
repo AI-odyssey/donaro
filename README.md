@@ -73,10 +73,11 @@ CASE_STUDY.md    the problem, what I tried, what changed
 
 ## Running the tests
 
-The offline harnesses need only Python and git:
+The offline harnesses need only Python and git. The confidentiality check fails closed when there is no client term list, so give it the example list first:
 
 ```
 cd donaro
+cp gr_terms_private.example.txt gr_terms_private.txt
 python harness_gr.py
 python harness_context.py
 python harness_planner.py

@@ -1,0 +1,12 @@
+# Example client term list. Copy to gr_terms_private.txt (git-ignored). One term per line; these are made-up names.
+acmepharma
+northwind
+globexcorp
+initech
+umbrellacorp
+blue harbor
+red maple foods
+vandelay
+oscorp
+stark-medtech
+wayne-health
