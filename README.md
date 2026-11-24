@@ -98,3 +98,7 @@ From the first live task on 7 November 2026 to 16 November 2026: 82 real tasks (
 도나로는 휴대폰 하나로 여러 AI에게 일을 맡기는 개인용 창구입니다. 요청을 받으면 부서를 정하고, 쉬운 판단은 규칙과 Jev, 짧은 답은 빠른 모델, 기획·코드·최종 검수는 상위 모델에 맡깁니다. 검수는 가능하면 만든 모델과 다른 회사의 상위 모델이 맡고, 한도에 걸리면 복구 시각까지 기다렸다가 저절로 다시 시작합니다. 코드 변경은 작업마다 따로 만든 git worktree에서만 하고, 검사를 통과해야 원본에 반영합니다.
 
 고객 정보는 Claude 외 모델, 음성 합성, GitHub로 나가지 않습니다. 이 저장소는 운영 중인 시스템에서 핵심 코드만 추린 것이고, 공개 전에 고객 이름·비밀값·개인 정보가 0건인지 스크립트로 확인합니다.
+
+## License
+
+Shared for reading only. No license is granted; all rights reserved.
